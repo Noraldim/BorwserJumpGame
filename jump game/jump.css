@@ -1,0 +1,62 @@
+*{
+	margin: 0 ;
+	padding: 0;
+	    overflow-x: hidden;
+
+}
+ 
+#game{
+
+	width: 500px;
+	height: 200px;
+	border: 2px solid black;
+	
+}
+
+
+#rock{
+	width: 20px;
+	height: 20px;
+	background-color: black;
+	position: relative;
+	top: 130px;
+	left: 480px;
+	animation: rock 1s infinite;
+
+	
+
+}
+
+
+
+@keyframes rock{
+
+    0%{left: 480px}
+    100%{left: -20px}
+}
+
+
+
+#player{
+	width: 20px;
+	height: 50px;
+	background-color: red;
+	position: relative;
+	top: 150px;
+
+
+}
+.anme{
+		animation: player 1s ;
+}
+
+
+@keyframes player{
+	0%{top: 150px}
+	50%{top: 30px}	
+	100%{top: 150px}
+
+
+ 
+}
+
